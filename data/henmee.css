@@ -1,0 +1,29 @@
+#henmee-nav-menu-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	background-color: #f3f3f0;
+}
+#henmee-nav-menu {
+	margin: 2px auto;
+	padding: 0;
+	list-style: none;
+}
+
+#henmee-nav-menu li {
+	display: inline-block;
+	margin: 0 3px;
+	padding: 2px 8px;
+	background-color: #e0e0e0;
+	color: #888888;
+}
+
+#henmee-nav-menu a {
+	text-decoration: none;
+	font-weight: bold;
+}
