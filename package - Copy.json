@@ -1,0 +1,49 @@
+{
+  "name": "henmeeff",
+  "title": "Hen Mee for FireFox",
+  "id": "jid1-TzYGgrROKy1Slg",
+  "description": "A convenient addon for MaDooMee",
+  "author": "illuminati",
+  "license": "MPL 2.0",
+  "version": "0.2",
+  "icon": "data/icon48.png",
+  "icon64": "data/icon64.png",
+  "preferences": [
+	{
+		"name": "feature_shortcuts",
+		"title": "Feature: shortcut menu items",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "feature_cleanbrowse",
+		"title": "Feature: clean browse page",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "feature_autoresize",
+		"title": "Feature: auto resize images in comments",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "feature_opennewtab",
+		"title": "Feature: open all links in new tab",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "option_newtabbg",
+		"title": "-- Option: open new tab in background",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "feature_hidehistory",
+		"title": "Feature: Hide comment in post history",
+		"type": "bool",
+		"value": true
+	}
+  ]
+}

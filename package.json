@@ -1,43 +1,90 @@
 {
   "name": "henmeeff",
-  "title": "Hen Mee for FireFox",
+  "title": "เห็นหมีหมาไฟไหม?",
   "id": "jid1-TzYGgrROKy1Slg",
-  "description": "A convenient addon for MaDooMee",
+  "description": "ส่วนขยายให้กับเว็บมาดูหมี เพื่อเพิ่มความสะดวกในการใช้งาน",
   "author": "illuminati",
   "license": "MPL 2.0",
-  "version": "0.1",
+  "version": "0.4",
   "icon": "data/icon48.png",
   "icon64": "data/icon64.png",
   "preferences": [
 	{
 		"name": "feature_shortcuts",
 		"title": "Feature: shortcut menu items",
+		"description": "เพิ่มเมนูลัดเพื่อเรียกใช้หน้าเว็บต่างๆได้อย่างรวดเร็ว",
 		"type": "bool",
 		"value": true
 	},
 	{
 		"name": "feature_cleanbrowse",
 		"title": "Feature: clean browse page",
+		"description": "จัดระเบียบหน้า browse ให้อ่านได้ง่ายขึ้น",
 		"type": "bool",
 		"value": true
 	},
 	{
 		"name": "feature_autoresize",
-		"title": "Feature: auto resize images in topic view",
+		"title": "Feature: auto resize images in comments",
+		"description": "ย่อรูปต่างๆที่อยู่ใน comment ไม่ให้เกินขนาดกรอบ (รวมถึงรูปในลายเซ็นต์ด้วย)",
 		"type": "bool",
 		"value": true
 	},
 	{
 		"name": "feature_opennewtab",
 		"title": "Feature: open all links in new tab",
+		"description": "เปิดลิ้งค์ต่างๆในแท็บใหม่",
 		"type": "bool",
 		"value": true
 	},
 	{
-		"name": "feature_unhidelinks",
-		"title": "Feature: unhide all links",
+		"name": "feature_hidehistory",
+		"title": "Feature: hide comment in post history",
+		"description": "ซ่อนข้อความคอมเมนต์ ในหน้า post history",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "feature_antidoublepost",
+		"title": "Feature: prevent double post",
+		"description": "ป้องกันการโพสต์ซ้ำจากการดับเบิ้ลคลิก",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "feature_convertsymbol",
+		"title": "Feature: auto convert symbols",
+		"description": "แปลงอักขระต่างชาติที่ถูกเปลี่ยนเป็นสัญลักษณ์ &amp;XXXX; กลับมาเป็นอักขระที่ถูกต้อง",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "feature_titlefix",
+		"title": "Feature: show actual topic title",
+		"description": "แสดงหัวข้อกระทู้ แทนที่ ---",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "feature_reveallinks",
+		"title": "Feature: reveal all links",
+		"description": "แสดงลิ้งค์ทั้งหมดที่มีในกระทู้",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "feature_fixlolthailinks",
+		"title": "Feature: fix old lolthai links and redirect to madoomee",
+		"description": "แก้ไขลิ้งค์เดิมจาก lolthai.com เป็น madoomee",
+		"type": "bool",
+		"value": true
+	},
+	{
+		"name": "feature_quickreply",
+		"title": "Feature: quick reply box",
 		"type": "bool",
 		"value": true
 	}
+		
   ]
 }

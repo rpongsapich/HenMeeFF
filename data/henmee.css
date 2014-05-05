@@ -1,4 +1,4 @@
-#henmee-nav-menu-container {
+#henmee-nav-menu {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -8,22 +8,211 @@
 	padding: 0;
 	margin: 0;
 	background-color: #f3f3f0;
-}
-#henmee-nav-menu {
-	margin: 2px auto;
-	padding: 0;
-	list-style: none;
-}
-
-#henmee-nav-menu li {
-	display: inline-block;
-	margin: 0 3px;
-	padding: 2px 8px;
-	background-color: #e0e0e0;
-	color: #888888;
+	border-bottom: 1px solid #333333;
+	line-height: 16px;
+	z-index: 999;
 }
 
 #henmee-nav-menu a {
+	display: inline-block;
 	text-decoration: none;
 	font-weight: bold;
+	background-color: #f0f0f0;
+	color: #999999;
+	padding: 2px 8px;
+	margin: 0 3px;
+	cursor: pointer;
+}
+
+#henmee-nav-menu a:hover {
+	background-color: #fcfcfc;
+	color: #333333;
+}
+
+.henmee_browse_tags_ul {
+	display: block;
+	padding: 0;
+	margin: 0;
+	margin-top: 3px;
+	margin-bottom: -5px;
+	list-style: none;
+}
+
+.henmee_browse_tags_li {
+	float: left;
+	display: block;
+	font-size: 11px;
+	padding: 2px 5px;
+	margin: 0;
+	margin-right: 2px;
+	list-style: none;
+	background-color: #f0f0f0;
+	border: 1px solid #d0d0d0;
+	color: #999999;
+	border-radius: 10px;
+}
+
+.henmee_browse_tags_li:hover, .btlihilight {
+	background-color: #FCF2AC;
+	border-color: #FFE32E;
+	color: #D6BE22;
+	cursor: pointer;
+}
+
+.torrent_720p {
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	background-color: #9CFFBB;
+	border: 1px solid #30F26E;
+	color: #2AD15F;
+	text-decoration-color: #2ad15f;
+}
+
+.torrent_1080p {
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	background-color: #FFDEDE;
+	border: 1px solid #FF6B6B;
+	color: #E84646;	
+	text-decoration-color: #e84646;
+}
+
+.hm-toggle-menu {
+    position: relative;
+}
+.hmdownmenu {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    display: none;
+    background-color: #f0f0f0;
+    border: 1px solid #333333;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.hmdownmenu li {
+    margin:0;
+    padding:0;
+    text-align:left;
+    white-space:nowrap;
+    list-style:none;
+}
+.hmdownmenu li.float {
+	float: left;
+	margin: 1px;
+}
+.hmdownmenu li.float a {
+	border: 1px solid #e0e0e0;
+	border-radius: 10px;
+}
+.hmdownmenu li a {
+    color: #666666;
+    cursor: pointer;
+    display: block;
+    padding: 2px 10px;
+}
+.hmdownmenu li a:hover {
+    color: blue;
+    background-color: #ffffff;
+}
+
+.henmee-img-autosize {
+	max-width: 540px;
+}
+
+.hm_hist_comment_toggle {
+    border: 1px solid black;
+    margin-top: 2px;
+    padding-right: 40px;
+    min-height: 40px;
+    background-color: #ecedcd;
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+.hm_hist_comment_toggle.down {
+    background-position: right bottom;
+    margin-bottom: -1px;
+}
+
+.hm_hist_comment_toggle p.sub {
+    margin: 3px !important;
+}
+
+.hm_hist_comment_toggle p.sub table {
+    background-color: transparent;
+}
+td.comment {
+	position: relative;
+}
+.hm_all_links {
+	margin-right: -16px;
+	margin-top: -16px;
+	float: right;
+	display: block;
+	text-align: right;
+	padding: 0;
+}
+
+.hm_reveal_link {
+    width: 12px !important;
+    height: 12px !important;
+    display: block !important;
+    padding: 1px;
+    font-size: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: left top;
+    vertical-align: middle;
+    background-clip: content-box;
+    background-origin: content-box;
+}
+
+.hm_reveal_link:hover {
+    background-position: left bottom;
+}
+
+#hm_quickreply {
+	padding: 10px;
+	margin: 5px auto;
+	border: 3px solid #ebebeb;
+	background-color: #f7f7f7;
+	border-radius: 10px;
+	width: 728px;
+	text-align: center;
+}
+
+#hm_quickreply h2 {
+	margin: 0;
+	padding: 0;
+	color: #999999;
+	text-align: left;
+	font-size: 24px;
+}
+
+#hm_quickreply textarea {
+	font-size: 16px;
+	border: 1px solid #ebebeb;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px 0;
+	display: block;
+	width: 100%;
+	height: 160px;
+	color: #444444;
+}
+
+#hm_quickreply input {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 20px;
+	border-radius: 10px;
+	cursor: pointer;
 }
